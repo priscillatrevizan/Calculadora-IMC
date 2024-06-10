@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="./assets/js/script.js" defer></script>
+    <link rel="stylesheet" href="./assets/style.css">
+
+    <title>Calculadora IMC</title>
+</head>
+
+<body>
+    <main class="container">
+        <h1>Calcule seu IMC</h1>
+
+        <p class="paragrafo">Para calcular seu IMC, será preciso informar os dados abaixo:</p>
+
+        <form action="/" id="form" method="post">
+            <label for="peso">Peso</label>
+            <input type="text" id="peso" placeholder="Insira seu peso">
+
+            <label for="altura">Altura</label>
+            <input type="text" id="altura" placeholder="Insira sua altura ">
+
+            <button type="submit" aria-label="Calcular IMC">Enviar</button>
+        </form>
+
+        <div id="resultado"></div>
+
+        <aside id="results">
+            <p class="paragrafo">Analise aqui seu resultado:</p>
+            <table class="imc-table">
+                <tr>
+                    <th>IMC</th>
+                    <th>Resultado</th>
+                </tr>
+                <tr>
+                    <td>Menos do que 18.5</td>
+                    <td><a href="https://www.nutrii.com.br/blog/dieta-adequada-e-exercicios-tambem-sao-fundamentais-para-pessoas-com-dificuldade-de-engordar/#:~:text=Deve%2Dse%20incluir%20carboidratos%20simples,em%20amido%20como%20a%20batata." aria-label="Saiba mais sobre Abaixo do Peso">Abaixo do Peso</a></td>
+                </tr>
+                <tr>
+                    <td>Entre 18.5 e 24.9</td>
+                    <td><a href="https://www.conquistesuavida.com.br/noticia/medida-certa-saiba-como-manter-o-peso-ideal-atraves-da-alimentacao_a1384/1" aria-label="Saiba mais sobre Peso Normal">Peso Normal</a></td>
+                </tr>
+                <tr>
+                    <td>Entre 25 e 29.9</td>
+                    <td><a href="https://sciath.com.br/sobrepeso-dicas-para-manter-o-peso-saudavel/" aria-label="Saiba mais sobre Sobrepeso">Sobrepeso</a></td>
+                </tr>
+                <tr>
+                    <td>Entre 30 e 34.9</td>
+                    <td><a href="https://centrodeobesidadeediabetes.org.br/tudo-sobre-obesidade/tratamento-da-obesidade/" aria-label="Saiba mais sobre Obesidade Grau 1">Obesidade Grau 1</a></td>
+                </tr>
+                <tr>
+                    <td>Entre 35 e 39.9</td>
+                    <td><a href="https://www.obesimed.com.br/artigos/o-papel-do-endocrinologista-no-tratamento-da-obesidade/" aria-label="Saiba mais sobre Obesidade Grau 2">Obesidade Grau 2</a></td>
+                </tr>
+                <tr>
+                    <td>Mais que 40</td>
+                    <td><a href="https://www.tuasaude.com/obesidade-morbida/" aria-label="Saiba mais sobre Obesidade Grau 3">Obesidade Grau 3</a></td>
+                </tr>
+            </table>
+        </aside>
+    </main>
+
+    <footer>
+        <section class="fontes">
+            <p>Fonte: <a href="https://bvsms.saude.gov.br/bvs/dicas/215_obesidade.html">saude.gov.br</a></p>
+        </section>
+        <section class="elaboracao">
+            <p>Site elaborado por Priscilla Trevizan ❤</p>
+        </section>
+    </footer>
+</body>
+
+</html>
