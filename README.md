@@ -15,12 +15,11 @@ Insira sua altura em metros (m).
 Clique no botão "Calcular IMC".
 O site calculará automaticamente seu IMC e fornecerá o resultado, bem como uma breve descrição da faixa de peso à qual você pertence.
 
-Obs: não utilizar vírgulas.
-
 ## Stack utilizada
 
 **Front-end:** HTML, CSS, Javascript
 
 ## Demonstração
 
-https://priscillatrevizan.github.io/Calculadora-IMC/
+Você pode acessar uma versão online em:
+[Calculadora IMC](https://calculadora-imc-blue-seven.vercel.app/)
